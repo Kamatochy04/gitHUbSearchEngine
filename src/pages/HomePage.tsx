@@ -20,7 +20,7 @@ const HomePage = () => {
 
   const clickHendler = (name: string) => {
     fetchRepos(name)
-    console.log(repos)
+    setDropdown(false)
   }
   return (
     <div className='flex justify-center pt-10 mx-auto h-screen w-screen'>
